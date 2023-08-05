@@ -1,0 +1,13 @@
+CREATE SET TABLE HR.Employees (
+GlobalID INTEGER,
+FirstName VARCHAR(30),
+LastName VARCHAR(30),
+DateOfBirth DATE FORMAT 'YYYY-MM-DD',
+JoinedDate DATE FORMAT 'YYYY-MM-DD',
+DepartmentCode BYTEINT,
+aa DECIMAL,
+num NUMERIC,
+fl FLOAT,
+t1 TIMESTAMP,
+t2 TIME
+);
